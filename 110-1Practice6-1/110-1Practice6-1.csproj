@@ -72,6 +72,7 @@
     <Content Include="DDList.aspx" />
     <Content Include="Global.asax" />
     <Content Include="RadioBut.aspx" />
+    <Content Include="RadioButCom.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -106,6 +107,13 @@
     </Compile>
     <Compile Include="RadioBut.aspx.designer.cs">
       <DependentUpon>RadioBut.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RadioButCom.aspx.cs">
+      <DependentUpon>RadioButCom.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RadioButCom.aspx.designer.cs">
+      <DependentUpon>RadioButCom.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
